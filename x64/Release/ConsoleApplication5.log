@@ -1,0 +1,8 @@
+﻿  ConsoleApplication5.cpp
+  dbinteraction.cpp
+dbinteraction.obj : error LNK2005: "public: static class sql::ResultSet * __cdecl dbinteraction::select(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?select@dbinteraction@@SAPEAVResultSet@sql@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) déjà défini(e) dans dbinteraction.obj
+dbinteraction.obj : error LNK2005: "public: static int __cdecl dbinteraction::maj(class sql::PreparedStatement *)" (?maj@dbinteraction@@SAHPEAVPreparedStatement@sql@@@Z) déjà défini(e) dans dbinteraction.obj
+dbinteraction.obj : error LNK2005: "public: static void __cdecl dbinteraction::disconnect(void)" (?disconnect@dbinteraction@@SAXXZ) déjà défini(e) dans dbinteraction.obj
+dbinteraction.obj : error LNK2005: "public: static class sql::Connection * __cdecl dbinteraction::connect(void)" (?connect@dbinteraction@@SAPEAVConnection@sql@@XZ) déjà défini(e) dans dbinteraction.obj
+dbinteraction.obj : error LNK2001: symbole externe non résolu "private: static class sql::ResultSet * dbinteraction::res" (?res@dbinteraction@@0PEAVResultSet@sql@@EA)
+C:\Users\S2M\source\repos\ConsoleApplication5\x64\Release\FirstAppDB.exe : fatal error LNK1120: 1 externes non résolus
